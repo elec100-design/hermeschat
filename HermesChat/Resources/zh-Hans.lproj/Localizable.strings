@@ -1,0 +1,342 @@
+/* Tab Bar */
+"tab.board" = "面板";
+"tab.sessions" = "会话";
+"tab.kanban" = "看板";
+"tab.dashboard" = "仪表板";
+"tab.settings" = "设置";
+
+/* Onboarding */
+"onboarding.welcome.title" = "欢迎使用 HermesChat";
+"onboarding.welcome.subtitle" = "在手机上使用您的 AI 智能体";
+"onboarding.welcome.selfhosted" = "使用我的服务器（自托管）";
+"onboarding.welcome.selfhosted.desc" = "通过 Tailscale 连接到您自己的 Mac mini 或服务器";
+"onboarding.welcome.cloud" = "使用云服务（即将推出）";
+"onboarding.welcome.cloud.desc" = "连接到 Hermes 云服务器 — 服务准备中";
+"onboarding.server.title" = "服务器连接";
+"onboarding.server.host.label" = "服务器地址";
+"onboarding.server.host.placeholder" = "http://100.x.x.x:8642";
+"onboarding.server.apikey.label" = "API 密钥（可选）";
+"onboarding.server.apikey.placeholder" = "未设置则留空";
+"onboarding.server.test" = "测试连接";
+"onboarding.server.testing" = "测试中…";
+"onboarding.server.success" = "连接成功！";
+"onboarding.server.failed" = "连接失败";
+"onboarding.done.title" = "设置完成！";
+"onboarding.done.subtitle" = "HermesChat 已准备就绪";
+"onboarding.done.start" = "开始使用";
+"onboarding.next" = "下一步";
+"onboarding.back" = "返回";
+"onboarding.skip" = "跳过";
+
+/* Settings */
+"settings.title" = "设置";
+"settings.connection" = "Hermes 连接";
+"settings.connection.host" = "服务器地址";
+"settings.connection.test" = "测试连接";
+"settings.bridge" = "Hermes Bridge";
+"settings.bridge.desc" = "Mac mini 的桥接服务(:8765)。用于编辑 SOUL.md、重启网关、自动搜索配置文件和上传文件。";
+"settings.model.default" = "默认模型";
+"settings.profiles" = "配置文件（Mac Mini 网关）";
+"settings.profiles.port" = "端口 %d";
+"settings.skills" = "技能与工具";
+"settings.filebrowser" = "文件浏览器 (~/.hermes)";
+"settings.tailscale.download" = "下载 Tailscale";
+"settings.privacy.policy" = "隐私政策";
+"settings.language" = "应用语言";
+"settings.language.footer" = "可在 iOS 设置中更改 HermesChat 的显示语言（한국어 · English · 简体中文）。";
+
+/* Session List */
+"session.new" = "新建会话";
+"session.creating" = "创建中…";
+"session.search.placeholder" = "搜索会话";
+"session.pinned" = "已固定";
+"session.rename" = "重命名";
+"session.pin" = "固定";
+"session.unpin" = "取消固定";
+"session.fork" = "分支";
+"session.rename.title" = "重命名会话";
+"session.rename.placeholder" = "会话名称";
+"session.rename.message" = "请输入新的会话名称。";
+
+/* Settings (extended) */
+"settings.profiles.name.placeholder" = "名称";
+"settings.profiles.port.placeholder" = "端口";
+"settings.profiles.discover" = "自动搜索配置文件";
+"settings.profiles.discovering" = "搜索中…";
+"settings.profiles.discover.none" = "无变化（已扫描 8642–8651）";
+"settings.profiles.discover.added" = "已添加/更新 %ld 个配置文件";
+"settings.profiles.footer" = "点击行切换到该配置文件，点击 ⓘ 进入模型选择、SOUL.md 编辑和网关重启页面。";
+"settings.bridge.url.placeholder" = "Bridge URL（如 http://100.x.x.x:8765）";
+"settings.profile.rename.title" = "重命名配置文件";
+"settings.profile.rename.placeholder" = "配置文件名称";
+"settings.profile.rename.message" = "请输入新的配置文件名称。";
+"settings.connection.test.success" = "连接成功";
+"settings.connection.test.status" = "状态码：%d";
+"settings.connection.test.response_error" = "响应格式错误";
+"settings.connection.test.failed" = "连接失败：%@";
+"settings.skills.footer" = "技能与工具基于当前选择的配置文件（%@）网关，文件浏览器需要 Bridge（只读）。";
+
+/* Common */
+"common.cancel" = "取消";
+"common.save" = "保存";
+"common.done" = "完成";
+"common.ok" = "确定";
+"common.error" = "错误";
+"common.retry" = "重试";
+"common.loading" = "加载中…";
+"common.delete" = "删除";
+"common.add" = "添加";
+"common.edit" = "编辑";
+"common.load_more" = "加载更多";
+"common.all" = "全部";
+
+/* Chat */
+"chat.loading_history" = "加载对话中…";
+"chat.fork_session" = "分支此会话";
+"chat.session_menu" = "会话菜单";
+"chat.fork_failed" = "分支失败";
+"chat.voice_error" = "语音输入错误";
+"chat.photo_access.title" = "照片访问权限";
+"chat.photo_access.limited" = "眼镜照片自动发送需要完整的照片库访问权限。请前往设置 > 隐私与安全性 > 照片，将 Hermes Chat 更改为\"完整访问\"。";
+"chat.photo_access.denied" = "需要照片访问权限。请在设置 > 隐私与安全性 > 照片中允许访问。";
+"chat.working.generating" = "生成响应中…";
+"chat.working.thinking" = "思考中…";
+"chat.working.responding" = "响应中";
+"chat.voice.listening" = "聆听中…";
+"chat.voice.thinking" = "思考中…";
+"chat.voice.speaking" = "说话中…";
+"chat.voice.stop" = "结束语音对话";
+"chat.voice.read_stop" = "停止朗读";
+"chat.voice.start" = "开始语音对话";
+"chat.glasses.detected" = "已检测到照片（%ld 张）· 最近：%@";
+"chat.glasses.watching" = "正在监视眼镜拍照 — 拍照后将自动附加";
+"chat.glasses.enable" = "开启眼镜自动发送";
+"chat.glasses.disable" = "关闭眼镜自动发送";
+"chat.attach.photo" = "照片";
+"chat.attach.file" = "文件（含云盘）";
+"chat.attach.add" = "添加附件";
+"chat.message.placeholder" = "输入消息";
+
+/* Kanban */
+"kanban.title" = "看板";
+"kanban.bridge_required.title" = "需要配置 Bridge";
+"kanban.bridge_required.desc" = "在设置的 Hermes Bridge 部分输入 URL 和令牌即可使用看板。";
+"kanban.loading" = "加载看板中…";
+"kanban.board.empty" = "无看板";
+"kanban.board.empty.hint" = "在 Mac mini 上运行 `hermes kanban boards create <名称>` 创建看板。";
+"kanban.board.reload" = "重新加载";
+"kanban.board.new" = "新建看板";
+"kanban.board.new.title" = "新建看板";
+"kanban.board.name.placeholder" = "看板名称";
+"kanban.column.empty" = "空";
+"kanban.task.title.placeholder" = "标题（做什么）";
+"kanban.task.assignee" = "负责配置文件";
+"kanban.task.assignee.auto" = "自动";
+"kanban.task.assignee.label" = "负责人";
+"kanban.task.content" = "内容";
+"kanban.task.mode" = "启动方式";
+"kanban.task.new.title" = "新任务";
+"kanban.task.create" = "创建";
+"kanban.task.status" = "状态";
+"kanban.task.created" = "创建时间";
+"kanban.task.updated" = "更新时间";
+"kanban.task.close" = "关闭";
+"kanban.task.no_title" = "（无标题）";
+"kanban.action.promote" = "运行（至 Ready）";
+"kanban.action.block" = "阻塞";
+"kanban.action.unblock" = "恢复（至 Ready）";
+"kanban.action.complete" = "完成";
+"kanban.action.archive" = "归档";
+"kanban.mode.ready" = "立即运行";
+"kanban.mode.triage" = "细化后运行";
+"kanban.mode.blocked" = "阻塞";
+"kanban.mode.ready.footnote" = "负责配置文件的工作器将在一分钟内开始任务。";
+"kanban.mode.triage.footnote" = "规格细化代理将先完善内容，然后再运行。";
+"kanban.mode.blocked.footnote" = "仅存储在看板上，不运行。可在 Blocked 列中恢复。";
+
+/* Common (additional) */
+"common.close" = "关闭";
+"common.restart" = "重启";
+"common.saving" = "保存中…";
+"common.creating" = "创建中…";
+"common.empty" = "空";
+
+/* Profile Board */
+"profile.board.title" = "配置文件面板";
+"profile.board.cron.manage" = "定时任务管理";
+"profile.add" = "添加配置文件";
+"profile.add.accessibility" = "添加新配置文件";
+"profile.status.checking" = "检查中…";
+"profile.status.offline" = "离线";
+"profile.status.online" = "在线";
+"profile.sessions.count %lld" = "%lld 个会话";
+
+/* Profile Detail */
+"profile.detail.connection" = "连接";
+"profile.detail.profile.label" = "配置文件";
+"profile.detail.port.label" = "端口";
+"profile.detail.gateway.logs" = "查看网关日志（最近 200 行）";
+"profile.detail.restarting" = "重启中…";
+"profile.detail.gateway.restart" = "重启网关";
+"profile.detail.restart.footer" = "对 SOUL.md 的修改需要重启网关后才能生效。";
+"profile.detail.deleting" = "删除中…";
+"profile.detail.delete.action" = "删除配置文件";
+"profile.detail.delete.footer" = "将从后端完全删除此配置文件（hermes profile delete）。";
+"profile.detail.bridge.soul.required" = "在设置的\"Hermes Bridge\"部分输入 URL 和令牌，即可启用 SOUL.md 编辑和网关重启功能。";
+"profile.detail.soul.header" = "SOUL.md（个性/指令）";
+"profile.detail.soul.save" = "保存 SOUL.md";
+"profile.detail.model.header" = "模型";
+"profile.detail.model.picker" = "模型";
+"profile.detail.model.bridge.required" = "选择模型需要 Hermes Bridge。请在设置中输入 URL 和令牌。";
+"profile.detail.model.catalog.empty" = "模型目录为空。启动一次网关即可生成 cache/model_catalog.json。";
+"profile.detail.model.current" = "当前模型";
+"profile.detail.model.saving" = "保存并重启中…";
+"profile.detail.model.save" = "保存模型（重启网关）";
+"profile.detail.model.footer" = "更新 config.yaml 中的 model.default 并重启网关。（provider·base_url 保持不变）";
+"profile.detail.loading" = "加载中…";
+"profile.detail.load.failed %@" = "加载失败：%@";
+"profile.detail.restart.confirm %@" = "重启 %@ 网关？\n当前响应可能会中断。";
+"profile.detail.delete.confirm %@" = "删除 %@ 配置文件？\n将从后端完全删除且无法恢复。";
+
+/* Skills */
+"skills.empty" = "未安装任何技能";
+"skills.toolsets.empty" = "无工具集";
+"skills.header %lld" = "技能（%lld）";
+"skills.toolsets.header %lld" = "工具集（%lld）";
+"skills.footer %@" = "配置文件：%@。在 Mac mini 的 config.yaml 中启用/禁用。";
+
+/* File Browser */
+"files.bridge.required" = "请在设置中输入 Hermes Bridge URL 和令牌。";
+"files.cannot.open" = "无法打开";
+"files.bridge.not.configured" = "未配置 Bridge";
+
+/* Profile Create */
+"profile.create.bridge.required" = "创建新配置文件需要 Hermes Bridge。\n请在设置的\"Hermes Bridge\"部分输入 URL 和令牌。";
+"profile.create.section.profile" = "配置文件";
+"profile.create.name.placeholder" = "名称（如：work）";
+"profile.create.soul.header" = "SOUL.md（可选）";
+"profile.create.soul.footer" = "配置文件的个性/指令，稍后也可在详情页编辑。";
+"profile.create.creating" = "创建中…（网关启动可能需要数十秒）";
+"profile.create.action" = "创建配置文件";
+"profile.create.action.footer" = "创建目录、.env、SOUL.md 并启动网关。";
+"profile.create.title" = "新建配置文件";
+
+/* Dashboard */
+"dashboard.desktop.label" = "桌面视图（点击切换为移动视图）";
+"dashboard.mobile.label" = "移动视图（点击切换为桌面视图）";
+
+/* Cron Manager */
+"cron.manager.title" = "定时任务管理";
+"cron.manager.new.job" = "新建定时任务";
+"cron.manager.filter.all" = "所有配置文件";
+"cron.manager.jobs.count %lld" = "%lld 个定时任务";
+"cron.manager.empty" = "暂无定时任务";
+"cron.manager.empty.desc" = "尚未注册定时任务。";
+"cron.manager.empty.filtered.desc %@" = "%@ 配置文件中没有定时任务。";
+"cron.manager.delete.confirm" = "确认删除此定时任务？";
+"cron.manager.bridge.required" = "查看定时任务需要 Hermes Bridge。\n请在设置的\"Hermes Bridge\"栏填写 URL 和令牌。";
+"cron.job.last.run %@" = "上次 %@";
+"cron.job.next.run %@" = "下次 %@";
+"cron.job.toggle.pause" = "暂停";
+"cron.job.toggle.resume" = "恢复";
+"cron.job.run" = "立即执行";
+"cron.job.edit" = "编辑";
+
+/* Cron Job Edit */
+"cron.edit.profile" = "配置文件";
+"cron.edit.name" = "名称";
+"cron.edit.enabled" = "启用此定时任务";
+"cron.edit.prompt.footer" = "发送给 AI 的指令。脚本型（no_agent）任务可留空。";
+"cron.edit.schedule.footer" = "分 时 日 月 周。例：`0 8 * * *` = 每天 08:00。";
+"cron.edit.schedule.human %@" = "%@ · 分 时 日 月 周";
+"cron.edit.saving" = "保存中…";
+"cron.edit.creating" = "创建中…";
+"cron.edit.save" = "保存更改";
+"cron.edit.create" = "创建定时任务";
+"cron.edit.title.new" = "新建定时任务";
+"cron.edit.skills.empty" = "暂无可用技能";
+"cron.edit.mode %@" = "模式：%@";
+
+/* Discussion (Deep Think) */
+"discuss.stop.confirm" = "讨论正在进行。确认中断并退出？";
+"discuss.stop.action" = "中断并退出";
+"discuss.continue" = "继续";
+"discuss.setup.topic" = "讨论主题";
+"discuss.setup.topic.placeholder" = "请输入讨论主题";
+"discuss.setup.participants %lld" = "参与者（已选 %lld 人）";
+"discuss.setup.participants.hint" = "聚集不同模型和风格的 AI，相互验证效果更佳。";
+"discuss.setup.mode" = "进行方式";
+"discuss.setup.rounds %lld" = "轮次：%lld";
+"discuss.setup.tools" = "允许工具使用";
+"discuss.setup.tools.hint" = "AI 可通过网络搜索寻找依据，单次发言可能长达数分钟。";
+"discuss.start" = "开始讨论";
+"discuss.start.hint" = "需要主题及至少 2 名参与者。";
+"discuss.past" = "历史讨论";
+"discuss.moderator" = "主持人（撰写结论）";
+"discuss.moderator.first" = "第一位参与者";
+"discuss.room.topic" = "主题";
+"discuss.room.stop" = "停止";
+"discuss.room.copy.conclusion" = "复制结论";
+"discuss.room.share" = "分享";
+"discuss.room.new" = "新讨论";
+"discuss.room.back.setup" = "返回设置";
+"discuss.status.concluding" = "主持人正在整理结论…";
+"discuss.status.speaking %@" = "%@ 发言中…";
+"discuss.status.speaking.count %lld" = "%lld 人发言中…";
+"discuss.status.round %lld %lld" = "第 %lld/%lld 轮进行中…";
+"discuss.status.running" = "进行中…";
+"discuss.conclusion.label %@" = "最终结论 — %@";
+
+/* Message / Chat UI */
+"message.copy" = "复制";
+"message.copy.plain" = "复制纯文本（去除 Markdown）";
+"message.tts.stop" = "停止朗读";
+"message.tts.read" = "朗读";
+"message.thinking" = "思考中";
+"tool.calls.count %lld" = "调用工具 %lld 次";
+
+/* Cloud Auth (T-C01) */
+"auth.title" = "云账号";
+"auth.signin.heading" = "Hermes 云服务";
+"auth.signin.subtitle" = "使用 Apple 账号登录，随时随地访问 Hermes。";
+"auth.signin.loading" = "登录中…";
+"auth.label.signedin" = "已登录";
+"auth.label.signedout" = "登录云服务";
+"auth.sign_out" = "退出登录";
+"auth.delete_account" = "删除账号与数据";
+"auth.delete_account.confirm.title" = "删除账号？";
+"auth.delete_account.confirm.message" = "您的容器和所有数据将被永久删除，无法恢复。";
+"auth.delete_account.confirm.action" = "永久删除";
+"auth.plan.free" = "免费版";
+"auth.plan.basic" = "基础版";
+"auth.plan.pro" = "专业版";
+"auth.supabase_url" = "Supabase URL";
+"auth.supabase_anon_key" = "Supabase Anon Key";
+"auth.cloud_gateway_url" = "云网关 URL";
+"auth.error.no_token" = "无法获取 Apple ID 令牌。";
+"auth.error.supabase_not_configured" = "请先在设置中填写 Supabase URL 和 Anon Key。";
+"auth.error.gateway_not_configured" = "未配置云网关 URL。";
+"auth.error.network" = "请检查网络连接。";
+"auth.error.supabase_failed" = "认证服务器错误：%@";
+"auth.error.gateway_failed" = "云网关错误：%@";
+"settings.cloud_account" = "云账号";
+"settings.cloud_account.footer" = "通过 Apple 登录连接到 Hermes 云服务。";
+"settings.cloud.config" = "Cloud 设置";
+
+/* Subscription (T-C03) */
+"settings.subscription" = "订阅";
+"settings.subscription.footer" = "管理订阅或升级套餐。";
+"subscription.loading" = "正在加载套餐信息…";
+"subscription.unavailable" = "当前无法加载订阅套餐。";
+"subscription.upgrade" = "升级套餐";
+"subscription.manage" = "管理订阅";
+"subscription.restore" = "恢复购买";
+"subscription.sheet.title" = "Hermes 套餐";
+"subscription.sheet.subtitle" = "随时可取消。";
+"subscription.error.verification_failed" = "购买验证失败。";
+"common.done" = "完成";
+
+/* Usage (T-C05) */
+"settings.usage" = "本月用量";
+"settings.usage.count" = "%d / %d 条消息";
+"settings.usage.unlimited" = "无限制";
